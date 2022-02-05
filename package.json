@@ -1,0 +1,60 @@
+{
+  "name": "projekt",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "browserify-fs": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "formik": "^2.2.9",
+    "js-cookie": "^3.0.1",
+    "lodash": "^4.17.21",
+    "material-ui-confirm": "^3.0.3",
+    "mongoose": "^6.1.4",
+    "mqtt": "^4.2.6",
+    "primeflex": "^2.0.0",
+    "primereact": "^7.1.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.1",
+    "react-transition-group": "^4.4.2",
+    "react-world-flags": "^1.4.0",
+    "uuidv4": "^6.2.12",
+    "validator": "^13.7.0",
+    "web-vitals": "^2.1.2",
+    "write-file-p": "^1.0.8",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "HTTPS=true SSL_CRT_FILE='./localhost.pem' SSL_KEY_FILE='./localhost-key.pem' react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,345 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.flex-form {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.main-game {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-template-rows: auto auto auto auto;
+  margin: 0 auto;
+  border: .1rem solid black;
+  padding: 20px;
+  border-radius: 15px;
+  grid-gap: 10px;
+}
+.main-game-menu {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.form-change-numbers {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  grid-row: 3;
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.results {
+  grid-row: 3;
+  grid-column: 1;
+}
+.chosen-numbers {
+  grid-column: 1 / 3;
+  grid-row: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.id-game {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  grid-row: 2;
+  text-transform: uppercase;
+  align-items: center;
+}
+.chat-game {
+  padding: 20px;
+  grid-column: 2;
+  grid-row: 2;
+  border: 1px solid black;
+}
+.chat-form {
+  padding: 10px;
+}
+.chat-list-div {
+  width: 55%;
+  margin: 0 auto;
+
+}
+.id-game h3 {
+  font-size: 30px;
+}
+.id-game h1 {
+  font-size: 90px;
+}
+
+.numbers {
+  font-size: 36px;
+
+}
+.labels-change-numbers {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 5px;
+}
+.labels-change-numbers label {
+  font-size: 20px;
+}
+.labels-change-numbers input {
+  padding: 5px;
+}
+.welcomer {
+  width: 50%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border: 1px solid black;
+  margin: auto auto;
+
+
+}
+.welcomer-login {
+  grid-column: 1;
+  grid-row: 1;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcomer-register {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-welcomer {
+  padding: 100px;
+  text-transform: uppercase;
+}
+.menu-margin {
+  margin-bottom: 5px;
+}
+.gameslist-cards {
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.guessed-numbers {
+  color: green;
+  font-weight: bold;
+  font-size: 24px;
+}
+.no-guessed-numbers {
+  font-weight: bold;
+  font-size: 24px;
+}
+.separator {
+  font-size: 30px;
+}
+.gameslist-card-player {
+  font-size: 18px;
+}
+.gameslist-card-player-span {
+  padding: 3px;
+}
+.players-form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.players-form-inner {
+  padding: 15px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+
+}
+.players-form-outer {
+  width: 50%;
+  padding: 15px;
+  letter-spacing: 1px;
+  border: 1px solid black;
+
+
+}
+.players-form-inner-inner {
+  padding: 5px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.players-form-inner-inner input {
+  padding: 10px;
+
+}
+.lobby-form-inner {
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.lobby-form-inner input {
+  padding: 5px;
+
+}
+.lobby-form-inner span {
+  padding: 5px;
+
+}
+.login-form {
+  border: 1px solid black;
+  padding: 10px;
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.login-form-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 5px;
+}
+.login-form-inner input {
+  padding: 5px;
+}
+.lobby-flex {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+}
+.lobby-ready-numbers {
+  grid-row: 1;
+  grid-column: 1;
+}
+.numbers-list {
+  width: 50%;
+  margin: 0 auto;
+}
+.edit-numbers-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  gap: 5px;
+}
+.edit-numbers-form-inner {
+  display: flex;
+  padding: 1px;
+}
+.numbers-list-operations-buttons {
+  display: flex;
+  gap: 5px;
+}
+.flags {
+  display: flex;
+  gap: 5px;
+  flex-direction: column
+}
+.pl-flag {
+  border: 1px solid black;
+}
+.flags-inner-1 {
+  display: flex;
+  gap: 5px;
+}
+.lobby-boxes {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.numbers-list-lobby {
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.flex-form-lobby {
+  align-self: flex-start;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.h1-center {
+  text-align: center;
+}
+.label-height-100 {
+  line-height: 100%;
+  height: 100%;
+}
+.flex-chat-list-search-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-chat-list-search {
+  display: flex;
+  align-items: center;
+}
+.chat-list-pattern-box {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 4fr 8fr;
+}
+.chat-list-pattern-form {
+  grid-row: 1;
+  grid-column: 1;
+}
+.refresh-pattern-box {
+  grid-row: 1;
+  grid-column: 2;
+}
+.ranking {
+  border: 1px solid black;
+}
