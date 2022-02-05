@@ -2,6 +2,8 @@
 <img src="https://i.imgur.com/uW8ZxjQ.png">
 <img src="https://i.imgur.com/FkTQBy4.png">
 
+## Data wykonania: grudzień-styczeń 2022 r.
+
 ## Cel: 
 * projekt na zaliczenie przedmiotu "Protokoły Sieci Web" na pierwszym semestrze drugiego roku informatyki o profilu praktycznym na Wydziale MFI Uniwersytetu Gdańskiego.
 ## Temat projektu: 
